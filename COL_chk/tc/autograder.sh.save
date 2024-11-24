@@ -1,0 +1,9 @@
+root@Hecker:~# cd /mnt/c
+root@Hecker:/mnt/c# cd Users
+root@Hecker:/mnt/c/Users# cd lohit
+root@Hecker:/mnt/c/Users/lohit# cd Downloads/
+root@Hecker:/mnt/c/Users/lohit/Downloads# cd COL_chk/
+root@Hecker:/mnt/c/Users/lohit/Downloads/COL_chk# cd tc
+root@Hecker:/mnt/c/Users/lohit/Downloads/COL_chk/tc# bash autograder.sh
+autograder.sh: line 2: $'\r': command not found
+autograder.sh: line 4: $'\r': comma
