@@ -25,6 +25,7 @@ class Heap:
         '''
         self.comparator = comparison_function
         self.init_array = init_array[:]
+        for i in range(len(self.init_array)-1,0,-1): self.init_array[i],self.init_array[(i-1)//2] = self.init_array[(i-1)//2],self.init_array[i] if self.comparator(self.init_array[(i-1)//2],self.init_array[i]) else self.init_array[i],self.init_array[(i-1)//2]
         # Write your code here
         pass
         
